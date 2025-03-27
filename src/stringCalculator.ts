@@ -1,3 +1,7 @@
 export const stringCalculator = (numbers: string): number => {
-  return 0; // Just enough to make the test pass
+  if (!numbers) return 0;
+  return numbers
+    .split(",")
+    .map(Number)
+    .reduce((sum, num) => sum + num, 0);
 };
