@@ -23,7 +23,7 @@ This project is an implementation of the **String Calculator** using **Test-Driv
 
 ```bash
 git clone https://github.com/nithya-kala/string-calculator.git
-cd string-calculator-tdd
+cd string-calculator
 ```
 
 ### **2️⃣ Install Dependencies**
@@ -44,17 +44,6 @@ This will execute `stringCalculator.ts` using `ts-node`.
 
 ```bash
 npm test
-```
-
-## 📜 Usage Examples
-
-```typescript
-import { stringCalculator } from "./src/stringCalculator";
-
-console.log(stringCalculator("1,2,3")); // Output: 6
-console.log(stringCalculator("")); // Output: 0
-console.log(stringCalculator("5")); // Output: 5
-console.log(stringCalculator("//;\n1;2")); // Output: 3
 ```
 
 ## 📝 TDD Process
