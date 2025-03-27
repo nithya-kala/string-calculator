@@ -1,13 +1,7 @@
-import { StringCalculator } from "./stringCalculator";
+import { stringCalculator } from "./stringCalculator";
 
-describe("StringCalculator", () => {
-  let calculator: StringCalculator;
-
-  beforeEach(() => {
-    calculator = new StringCalculator();
-  });
-
+describe("String Calculator", () => {
   test("should return 0 for an empty string", () => {
-    expect(calculator.add("")).toBe(0);
+    expect(stringCalculator("")).toBe(0);
   });
 });
