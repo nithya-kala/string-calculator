@@ -17,3 +17,8 @@ export const stringCalculator = (numbers: string): number => {
 
   return numArray.reduce((sum, num) => sum + num, 0);
 };
+
+console.log(stringCalculator("1,2,3")); // Expected output: 6
+console.log(stringCalculator("")); // Expected output: 0
+console.log(stringCalculator("5")); // Expected output: 5
+console.log(stringCalculator("//;\n1;2")); // Expected output: 3
